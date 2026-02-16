@@ -49,7 +49,7 @@ export function VisitorInfo() {
             <h3 className="text-xl font-bold text-foreground mb-2">Day Pass</h3>
             <p className="text-3xl font-display font-bold text-secondary">$24.99</p>
             <p className="text-muted-foreground text-sm mb-4">Adults (13+)</p>
-            <button className="w-full py-2 rounded-full border border-secondary text-secondary font-bold hover:bg-secondary hover:text-foreground transition-colors">
+            <button type="button" aria-label="Buy adult day pass" className="w-full py-2 rounded-full border border-secondary text-secondary font-bold hover:bg-secondary hover:text-foreground transition-colors">
               Buy Now
             </button>
           </div>
@@ -59,7 +59,7 @@ export function VisitorInfo() {
             <h3 className="text-xl font-bold text-foreground mb-2">Kids Pass</h3>
             <p className="text-3xl font-display font-bold text-secondary">$18.99</p>
             <p className="text-muted-foreground text-sm mb-4">Children (3-12)</p>
-            <button className="w-full py-2 rounded-full bg-primary text-foreground font-bold hover:bg-primary/90 transition-colors">
+            <button type="button" aria-label="Buy kids pass" className="w-full py-2 rounded-full bg-primary text-foreground font-bold hover:bg-primary/90 transition-colors">
               Buy Now
             </button>
           </div>

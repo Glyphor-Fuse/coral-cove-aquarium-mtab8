@@ -20,6 +20,8 @@ const schedule = {
   ]
 };
 
+const tabTriggerClasses = "rounded-full text-lg data-[state=active]:bg-primary data-[state=active]:text-foreground";
+
 export function Schedule() {
   return (
     <section className="py-24 bg-accent/20">
@@ -35,9 +37,9 @@ export function Schedule() {
 
         <Tabs defaultValue="morning" className="w-full max-w-4xl mx-auto">
           <TabsList className="grid w-full grid-cols-3 h-14 bg-background/50 backdrop-blur rounded-full p-4 shadow-sm">
-            <TabsTrigger value="morning" className="rounded-full text-lg data-[state=active]:bg-primary data-[state=active]:text-foreground">Morning</TabsTrigger>
-            <TabsTrigger value="afternoon" className="rounded-full text-lg data-[state=active]:bg-primary data-[state=active]:text-foreground">Afternoon</TabsTrigger>
-            <TabsTrigger value="evening" className="rounded-full text-lg data-[state=active]:bg-primary data-[state=active]:text-foreground">Evening</TabsTrigger>
+            <TabsTrigger value="morning" className={tabTriggerClasses}>Morning</TabsTrigger>
+            <TabsTrigger value="afternoon" className={tabTriggerClasses}>Afternoon</TabsTrigger>
+            <TabsTrigger value="evening" className={tabTriggerClasses}>Evening</TabsTrigger>
           </TabsList>
           
           {Object.entries(schedule).map(([key, events]) => (
