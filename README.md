@@ -69,4 +69,8 @@ Yes, you can!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: 
+Read more here:
+
+## Repository Maintenance
+
+**Branch Cleanup Notice**: See [BRANCH_CLEANUP.md](./BRANCH_CLEANUP.md) for information about stale branches that need to be removed from this repository.
