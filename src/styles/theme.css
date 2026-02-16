@@ -1,0 +1,68 @@
+
+:root {
+  --background: hsl(40 20% 98%);
+  --foreground: hsl(200 100% 14%);
+  --primary: hsl(190 90% 40%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(16 90% 65%);
+  --secondary-foreground: hsl(0 0% 100%);
+  --accent: hsl(190 60% 90%);
+  --accent-foreground: hsl(200 100% 14%);
+  --card: hsl(0 0% 100%);
+  --card-foreground: hsl(200 100% 14%);
+  --muted: hsl(190 30% 96%);
+  --muted-foreground: hsl(200 40% 40%);
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(200 100% 14%);
+  --border: hsl(190 20% 85%);
+  --input: hsl(190 20% 85%);
+  --ring: hsl(190 90% 40%);
+  --radius: 1rem;
+  --destructive: hsl(0 84.2% 60.2%);
+  --destructive-foreground: hsl(0 0% 98%);
+  --chart-1: hsl(190 90% 40%);
+  --chart-2: hsl(16 90% 65%);
+  --chart-3: hsl(45 90% 60%);
+  --chart-4: hsl(200 80% 50%);
+  --chart-5: hsl(160 80% 40%);
+  --input-background: #2d2d2d;
+  --switch-background: #cbced4;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: #030213;
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+  --font-size: 16px;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+}
+
+.dark {
+  --background: hsl(200 100% 10%);
+  --foreground: hsl(40 20% 98%);
+  --primary: hsl(190 80% 50%);
+  --primary-foreground: hsl(200 100% 10%);
+  --secondary: hsl(16 80% 60%);
+  --secondary-foreground: hsl(0 0% 100%);
+  --accent: hsl(200 50% 20%);
+  --accent-foreground: hsl(190 80% 80%);
+  --card: hsl(200 80% 12%);
+  --card-foreground: hsl(40 20% 98%);
+  --muted: hsl(200 50% 15%);
+  --muted-foreground: hsl(200 20% 70%);
+  --popover: hsl(200 80% 12%);
+  --popover-foreground: hsl(40 20% 98%);
+  --border: hsl(200 50% 20%);
+  --input: hsl(200 50% 20%);
+  --ring: hsl(190 80% 50%);
+  --destructive: hsl(0 62.8% 30.6%);
+  --destructive-foreground: hsl(0 0% 98%);
+  --chart-1: hsl(190 80% 50%);
+  --chart-2: hsl(16 80% 60%);
+  --chart-3: hsl(45 80% 50%);
+  --chart-4: hsl(200 70% 60%);
+  --chart-5: hsl(160 70% 50%);
+}

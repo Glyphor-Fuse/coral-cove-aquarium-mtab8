@@ -1,0 +1,8 @@
+
+:root {
+  --font-display-family: Fredoka, sans-serif;
+  --font-body-family: Quicksand, sans-serif;
+  
+  --font-display: var(--font-display-family);
+  --font-body: var(--font-body-family);
+}
