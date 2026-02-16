@@ -2,6 +2,10 @@
 
 # Script to clean up stale branches in the repository
 # This script requires push permissions to the repository
+#
+# Usage:
+#   1. Make sure the script is executable: chmod +x scripts/cleanup-stale-branches.sh
+#   2. Run from the repository root: ./scripts/cleanup-stale-branches.sh
 
 set -e
 
