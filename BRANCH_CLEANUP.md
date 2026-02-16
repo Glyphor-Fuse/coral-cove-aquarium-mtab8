@@ -28,9 +28,25 @@ After the merge, all content from `copilot/fuse-agent` is now part of `main`, ma
 
 **The `copilot/fuse-agent` branch should be deleted from the remote repository.**
 
-### Manual Steps (Repository Admin Required)
+### Automated Script (Recommended)
 
-Since automated branch deletion requires special permissions, a repository administrator needs to manually delete the branch:
+A cleanup script has been provided for convenience:
+
+```bash
+# Run from the repository root
+./scripts/cleanup-stale-branches.sh
+```
+
+This script will:
+- Check if the stale branch exists
+- Verify the merge status
+- Prompt for confirmation before deletion
+- Delete the branch if confirmed
+- Display the updated branch list
+
+### Manual Steps (Alternative)
+
+If you prefer to delete the branch manually, a repository administrator can use any of these methods:
 
 #### Option 1: Via GitHub Web UI
 1. Go to https://github.com/Glyphor-Fuse/coral-cove-aquarium-mtab8/branches
